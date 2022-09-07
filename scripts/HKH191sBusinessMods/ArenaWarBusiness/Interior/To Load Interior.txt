@@ -1,0 +1,37 @@
+[Workshop]
+`//WorkGraphic CAN BE :, DONT INCLUDE ANYTING IN BRACKETS! LIKE (Plain)
+Set_Mod1_Style_01 (Plain)
+Set_Mod1_Style_02 (Geometry 1: Urban Camo)
+Set_Mod1_Style_03 (Geometry 2: Chevron)
+Set_Mod1_Style_04 (Dystopia 1: Toxic Safari)
+Set_Mod1_Style_05 (Dystopia 2: Fallen Idols)
+Set_Mod1_Style_06 (Dystopia 3: Wastebrand)
+Set_Mod1_Style_07 (Utopia 1: Le Chien)
+Set_Mod1_Style_08 (Utopia 2: Sebastian Dix)
+Set_Mod1_Style_09 (Utopia 3: Medici)
+
+// WorkOff CAN BE : , DONT INCLUDE ANYTING IN BRACKETS! LIKE (Business)
+SET_OFFICE_STANDARD  (Business)
+SET_OFFICE_HITECH  (Modern)
+SET_OFFICE_INDUSTRIAL  (Urban)
+
+/ WorkMechanic CAN BE : , DONT INCLUDE ANYTING IN BRACKETS! LIKE (Arena Mechanic)
+NONE","No Mechanic
+Set_Int_MOD_BOOTH_DEF (Arena Mechanic)
+Set_Int_MOD_BOOTH_BEN (Benny's O.M.W. Mechanic)
+Set_Int_MOD_BOOTH_WP  (Weapons Expert)
+Set_Int_MOD_BOOTH_COMBO (Combination)
+
+// WColor CAN BE :
+0 TO 9
+
+ //WLiving CAN BE :
+true OR false
+
+// nopeds CAN BE :
+true OR false
+
+[Garage]
+// WColor1 CAN BE :
+0 TO 9
+

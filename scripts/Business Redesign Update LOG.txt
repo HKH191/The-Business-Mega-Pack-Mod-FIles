@@ -1,0 +1,417 @@
+---Business Redesign 0.1 alpha Req---
+
+Gunrunning, Biker, Executive, After Hours, Smuggler’s Run, and Doomsday Heist Businesses now all need to be purchased via HKH191s Business helper 
+
+---Business Redesign 0.1.1 alpha Req---
+?
+---Business Redesign 0.1.2 alpha Req---
+?
+---Business Redesign 0.1.3 alpha Req---
+
+Fixed Game Crash on re-Entering Tower in Executive Business
+fixed Afterhours SupplyTrade Crash
+added Spinning Roullette Wheel and Ball
+
+---Business Redesign 0.1.4 alpha Req---
+?
+---Business Redesign 0.1.4.5 alpha Req---
+?
+---Business Redesign 0.1.6 alpha Req---
+
+Added Method in HKH191sBusiness Helper to Pass the time, for Stocks to Increase/Decrease - BE CAREFUL WHEN USING ITS NOT 100% YET, BUT SAFE STILL, stock increase/Decrease is not 50/50 istead of 35/65
+
+---Business Redesign 0.1.7 alpha Req---
+
+Bug Fixes
+
+---Business Redesign 0.1.8 alpha  Req---
+
+
+Bug fixes and addons for the BIker Sub Business
+Bug Fixes to Afterhours
+
+---Business Redesign 0.1.9 Req---
+
+Removed Random Green Marker in Paleto Bay (Created from unused code from Arena War)
+Combined all Executive Garage Scripts
+Removed Random Green Marker in Paleto Bay (Created from unused code from Arena War)
+Redesigned the Biker Clubhouse (LATEST EAI IS REQUIRED!)
+
+---Business Redesign 0.1.9.1 Req---
+
+added Chair Menu method to Arena War, (sit on CEO chair to access menu)
+Chair is in the smaller office accross from where the main marker usually is, near the money vault
+
+---Business Redesign 0.2 Req---
+
+fixed conflicting issues with Dell Perro and Vespucci Clubhouse,
+fixed Order vehicle in HKHBusiness Helper still showing only 4 vehicles in clubhouse instead of 12
+fixed a minor crash in Doomsday Hiest Business
+
+---Business Redesign 0.2.2 Req---
+
+added waredrobe to afterhours business
+seperated Led and DJ lights in afterhours business
+fixed multiple menus appearing when using a controller in all Businesses
+
+---Business Redesign 0.2.3 Req---
+
+fixed clubhouses having only 4 vehicles slots, (may be causing issues) now has all 12 (Apologies my fault)
+added VPM to Afterhours Garage
+
+---Business Redesign 0.2.4 Req---
+
+added option to freeze new chairs so they dont move if you bump them
+fixed some glitches with Afterhours Garage
+fixed vehicles not Propperly deleting in Biker Clubhouse
+added new method, for open and closed, money vault, and Gunlocker Vault door
+in Executive Business
+fixed not being able to sit on couch in Arcadius tower or MazeBank Tower
+
+---Business Redesign 0.3 Req---
+
+Added working TV in all 4 Executive Towers
+fixed missing chair in Arcadius Office
+re wrote Executive Subbusiness, will now need to be purcased through the 'Purchase Menu' from the main menu when sitting at the CEO computer
+can now change Subbusiness location (11 to choose from)
+tweeked the Executive Vehcile Warehouse to allow purchase of multiple vehicles bofore refreshing the garage
+fixed major issues with Steal Cargo Crates product mission (All Businesses)
+made all Money Vaults display money with commas and zeros (100,000,000 instead of 1.00E8)
+
+---Business Redesign 0.3 Req---
+
+---Business Redesign 0.3.1 Req---
+
+fixed some issues with Executive Sub Business
+
+---Business Redesign 0.3.2 Req---
+
+fixed wrong amount of cash from being deducted when buying a biker clubhouse
+
+---Business Redesign 0.4 Req---
+
+Doomsday Heist Business Avenger Blip colour and marker colour now matches the main color of business
+Gunrunning Business MOC Blip colour and marker colour now matches the main color of business
+please note : a new version of OCCI is available for reseting Business MOC. Avenger, Terrobyte in #current-uploads
+
+---Business Redesign 0.4.1 Req---
+
+Changed Turret fire key to Space bar or X on Xbox Controller
+added third person view on Scout drone in Terrobyte by pressing V
+
+---Business Redesign 0.5 Req---
+
+Arcade now stores 3 vehicles stock, and 11 vehicles if purchased slots 4 - 11 from Arcade Customization
+added 5 new Missions to Arcade
+Redesign slot machine placement
+added missing arcades, including Love, Gunslinger, fortune teller, and race arcades
+added a vehicle purchase menu, to center of the underground vehicle storage
+change start Hiest marker color to main color of business
+added a Money vault to Arcade
+made the underground area to purchaseable items
+fixed radio in Arcade not staying off
+added Practice Hacking minigame & Practice Drilling minigame to underground area
+added ability to turn clutter in underground area off
+Buying more arcades now cost money (Arcades range from 95k to 400k)
+removed old arcade games
+fixed Sell Business in Afterhours options in HKH191s Business Helper apearing as 'Sell Arena War Business' instead of 'Sell Afterhours Business'
+
+---Business Redesign 0.6 Req---
+
+Grouped ArenaWar Business Scripts : GunLocker.cs + MoneyVault.cs + EnableEnteriors.cs into Class1.cs 
+Grouped Afterhours Business Scripts :  SupplyTrade.cs into Class1.cs
+Grouped DoomsdayHiest Business Scripts : InteriorPeds.cs + InteriorProps.cs + MoneyVault.cs + OrbitalCannon.cs + Gunlocker.cs into Class1.cs 
+Grouped DC&R Business Scripts : Penthouse.cs into Class1.cs 
+Grouped Executive Business Scripts : Assistant.cs + InteriorProps.cs into ExecutiveTower.cs
+Grouped Executive Business Scripts : WarehouseGunlocker.cs into VehicleWarehouse.cs * - 100% finished
+Grouped Gunrunning Business Scripts : Gunlocker.cs + SetMoc.cs + InteriorPeds.cs + MoneyVault.cs into Class1.cs 
+Grouped Smuggler's Run Business Scripts : Gunlocker.cs + BusinessStuff.cs + CustomizeHanger.cs +Extra.cs + MoneyVault.cs + RestrctedZone.cs into Hanger.cs
+fixed Arena War Markers not appearing on First time load
+fixed Doomsday Hiest Facility exterior doors not opening on first time load
+Fixed Fort Zancudo Resticted Areas not turning off
+Disabled Franklins Special Ability when on Speed Trap missions
+added Great Ocean Freeway & Krorz Drive Speed Trap
+change Kortz Drive Speed to beat from 235kph to 210kph to 175kph
+Fixed multiple Issues with Supply Runs in Executive Business
+added 2 new Upgrades to extra section in Smugglers Run Business, for Access to Fort Zancudo
+***added Specialized Vehicle Purchase Menu in Smugglers run Business Hanger for Purchasing Aircraft***
+Added Gunlocker to LCC Warehouse
+fixed AfterHours Sell Product Truck to be in the wrong location, now is always outside Nightclub
+made Blip Colour and Marker Colour of Drop points in Sell Product mission in Nightclub Garage/Storage match Main Colour
+fixed GetHostName function in Afterhours Business not working, was causing no name on notification from nightclub boss ie. Gay Tony or whoever you set it to
+added show stats and set max wait to Afterhours Production menu
+added ability to choose delivery vehicle in Afterhours Production missions
+Pounder Custom, Speedo Custom, Mule Custom are no longer free, you will have to buy each one from Chair Menu, in 'Buy a vehicle' submenu
+added ability to enter the Garage/Storage of Nightclub from outside nightclub
+added exit garage option when in Storage/Garage
+when a Sell Product Mission completes for Afterhours Business/Biker Business amt of product bags & Value will reset for which ever product type you were selling
+after delivering a crate of product to a destination on Product sell missions for Afterhours Business/Biker Business, will now say how many more deliveries to other desinations till mission complete
+added Guards to Storage/Garage of Nightclub
+fixed WeedWait not increasing in ini in Afterhours Business, when purchasing x10 crates of weed,
+fixed Sell destination markers in Product sell mission form being skeewed
+Fixed Speedo saving over pounder in Storage in Nightclub
+added ai to attack player of Product sell mission Afterhours Business/Biker Business
+Grouped Executive Business Scripts : ExecutiveGarage.cs into ExecutiveTower.cs
+
+***  Executive 60 Car Garage now has to be purchaseed from Purchase options, options to puchase all three levels Garage Level 1, Level 2 and Level 3, controlled by ini variable, PurchasedGarageLevel1, PurchasedGarageLevel2, PurchasedGarageLevel3, in HKH191sBusinessMods\ExecutiveBusiness/Main.ini, if no garage is bought, the marker to save a vehicle will not appear
+
+Changing the interior of the Executive Garage will now cost money
+fixed clipping issues in Mazebank West tower when exiting Garage A, caused by Mazebank tower interior clipping with Garage Interior
+
+*** ModShop will now have to be purchased from Purchase Options Under Garage, once Bought allows customization of Vehicles from Executive Garage, when in Garage press Q when in a car to bring it to Mod Shop, a Trainer Can be Used to customize Vehicles or HKH191s Business Helper (by Pressing G a Customize Vehicle Menu will appear)
+
+Player can now enter Executive Business Mod Shop on Foot
+addeed Exit and Enter Marker for ModShop
+added Info Marker & UI for Modshop, How to Modify a Vehicle
+added Request a vehicle in Modshop to retreve a vehicle and put it in mod shop to modify
+changing Decal now cost money, Previewing decal is free, inside ModShop
+added a vehicle Purchase Menu to ModShop to allow player to purchase any vehicle, then modify it and save it into a garage
+
+*** when sitting in the CEO Chair, in any of the businesses mods that have "sit on CEO Chair Anim", Player and Chair will now play syncronous animation, for sitting in chair and getting out of chair
+
+added sit on CEO Chair Anim to Executive Business
+added sit on CEO Chair Anim to Smuggler's Run Business
+added sit on CEO Chair Anim to Afterhours Business Main Chair, and Secondary Chair (Underground Garage/Storage Chair)
+added sit on CEO Chair Anim to DC&R Main Chair, Penthouse Chair, Arcade Chair A & B
+added sit on CEO Chair Anim to Doomsday Heist Business
+added sit on CEO Chair Anim to Gunrunnning Business
+added sit on CEO Chair Anim to Biker Business
+Changed Main Chair in Doomsday Heist Facility to Executive chair 4 instead of 2
+
+*** "sit on CEO Chair Anim" will not be added to LCC Business, cause the office where the chair is located in are too small
+	"Login & Logout Anim" will not be added to LCC Business and Smuggler's Run Business, cause the office where the chairs are located in are too small
+
+added Login & Logout Anim to Executive Business
+added Login & Logout Anim DC&R Business Main Chair, Penthouse Chair, Arcade Chair B
+added Login & Logout Anim to Afterhours Main Chair, and Secondary Chair (Underground Garage/Storage Chair)
+added Login & Logout Anim to Doomsday Heist Business
+added Login & Logout Anim + sit on Chair Anim to Arena War Business
+Moved Chair to upstairs office in Arena War workshop - Arena War Business
+added Login & Logout Anim to Gunrunnning Business
+added Login & Logout Anim to Biker Business
+fixed Doomsday Heist Facilty Blip duplicating when purchasing new loation for Doomsday Heist Business
+fixed Lago Zancudo & Grand Senora Desert Facility locations being reversed (purchasing Lago Zancudo would give you Grand Senora location, purchasing Grand Senora Desert would give you Lago Zancudo)
+fixed Bunker peds not spawning - Gunrunning Business
+fixed Doomsday Heist Facility Peds not spawning  - Doomsday Heist Business
+Made the vehicle Bay Menu from Gunrunning Business Less Complicated
+Fixed Tao Cheng and Taos Translator missing clothes randomly in DC&R
+added Enable Prop sets & Disable Prop Sets to Excutive, when purchase one, say Guns Prop Set for 750k, will purchase all three Guns Props that are in Executive Props, there are 14 Prop Sets to activate the 42 Executive Props
+added a few more peds with Special Carbines in Doomsday Heist Facility
+
+---Business Redesign 0.6.1 Req---
+
+Gunlocker and Money Vault Doors in Executive Business now can be opened to access them
+Gunlocker and Money Vault Doors in DC&R Penthouse now can be opened to access them
+Gunlocker and Money Vault Doors in Afterhours Nightclub now can be opened to access them
+removed old customization menu from Doomsday Hiest Business'
+added new customization menu into main menu in Doomsday Hiest business, access by sitting in ceo chair in doomsday Facility
+Customization of Doomsday Heist Facility now cost Money
+fixed the Facility Interior randomly dissapearing when customizing it
+fixed Main Vehicles inside Facilty not being able to exit by pressing E
+
+---Business Redesign 0.6.2 Req---
+fix for falling through the floor when sitting on ceo seat in Afterhours Business 
+
+
+---Business Redesign 0.6.5 Req---
+
+fixed HKH191sBusiness Helper UI saying 'Press ~INPUT_CONTEXT~ to Opne the Business Helper Menu' instead of 'Press ~INPUT_CONTEXT~ to Open the Business Helper Menu"
+HKH191sBusiness Helper now supports controller (Opening Menu from Pacific Standard Bank)
+Fixed Smuggler's Run Business Blip Duplicating
+swapped the CEO chair model 4 in Smugglers Run Business for the first chair model 
+*** added Login & Logout Anim + sit on Chair Anim to Smuggler's Run Business ***
+*** Redesign Lucky Wheel with Syncronous animations, player will now grab one of the bars, and then push away when spinning the lucky Wheel***
+*** 20 new prizes have been added to the Lucky wheel, these 20 prizes can be won by hitting the 'Mystery Symbol', pizes range from +10 business levels, instant upgrade to VIP/VIP++ Memberships, winning the Podium Vehicle, Winning any of the 6 arcades (If you win an Arcade, you can decline it by pressing Q, or accept it by pressing E), 3 Million Cash/Chips, win a random Podium Vehicle choosen from a list of 50 Cars, Given Additional 5 Spins, Given the Masters Deck for Free ($75m - 200m Value) ***
+added valet and valet ped outside casino
+redesign Customisation of Hanger to now cost money, and is more simple
+*** Added Option to have no Dancers in Nightclub ***
+*** fixed some peds not spawning in Nightclub, bug was only in version 0.6/0.6.1 ***
+fixed no ui text on sourcing marker in doomsday Hiest Facility
+Removed ability to sit on couch in office 
+Removed ability to sit on couch in biker Safehouse
+Removed ability to sit on chouch in Doomsday facility
+*** added Syncronous Animation for Sitting and getting up from couches in DC&R Penthouse***
+*** added 52 new Syncronous seats, from the Eexecutive offices to the Doomsday Facility***
+*** added Ability to change the Main chair in Smuggler's Run Business, Gunrunning Business, Doomsday Heist Business, Biker Business, Arena War Business ***
+*** added Ability to change the Main chair, Penthouse Chair, Arcade Chair A & B in DC&R Business ***
+*** added Login & Logout Anim + sit on Chair Anim to Lamar's Custom Classics  Business ***
+put in auto detection for seeing if ChairPropModel exists in Main.ini's, if it does not, it will be added, and player will have to Reload mods oncea
+*** added Privacy Glass to Doomsday Heist Business ***
+added marker to Orbital Cannon in Doomsday Heist Business
+*** changed ChairModelAssistant & ChairModelCEO to Strings instead of int, Executive Business will now detect the change and apply the fix, so that any of the 4 original chairs can be used + the chairs from Afterhours DLC can be used as Chair Model for CEO chair and Assistant Chair in Executive Business ***
+*** added a method for Reseting all Businesses in a single click ***
+added missing values from HKH191sBusiness Helper Reset
+
+
+---Business Redesign 0.6.6 Req---
+Fixed Syncronous animations not playing on first attempt, eg. *** Open/Close Gunlocker/Money Vault, Sit in CEO Chair, sit on couch ***
+
+---Business Redesign 0.6.7 Req---
+fixed Tales of Us only having one ped as dj now has both (2 Peds for DJ)
+*** Fixed Script Crash on Saving a vehicle into Executive Garage *** oops my bad!
+added new way of purchasing business in back end (script side), 0.7 Will contain *** Business Passes ***, for example 'Cheap Business Pass' will give you every business, in the cheapest locations, 'Spread Business' pass out will give you a setup that has all business mods spread out, 'Condensed Business Pass' will give you all businesses, and make the locations the closest possible to the city, etc
+
+
+
+---Business Redesign 0.6.8 Req---
+*** added Syncronouse animation for sitting on couch in Arena War Business ***
+fixed issue when purchasing LCC business through business helper, will purchase arena war instead
+*** added Login & Logout Anim + sit on Chair Anim to LCC Warehouse ***
+*** added Login & Logout Anim + sit on Chair Anim to Executive Warehouse ***
+removed long wait on loading vehicles in LCC Warehouse
+fixed casino peds floating in mid air, thanks Games & Graphics!
+unfroze peds in Diamond Casino, Was causing massive issues
+*** Redesigned Peds to Spawn in casino When entering instead of on game Start/mods reload, will now also delete when exiting***
+*** Added 8 Player Poker to DC&R ***
+fixed some peds in nightclub not spawning, cause was too many peds being spawned, in business mods 
+fixed Slot machines, randomly stoping there animations
+in 8 Player Poker, you will be charged Chips immediatly, the amount of chips, is equal to the players Starting Balance, if the player chooses to exit the game, they will get back however much they still have
+
+ ** 1. Players sit and the table
+2. all players are given a certain amount of Bank, determined by ini (each player has a bank of chips)
+3. all Players are given 3 Random Cards, and contribute 1% of the Starting Balance to the pot
+4. Communtiy Cards are randomly choosen, 3 cards that if a Player has the same value of card, the value of card is multiplied by 2
+5. player can either choose to quit, or continue, if they quit (at any time), they will be given back the remaining amount of your bank (each player has a bank of chips)
+6. if they continue, they will be greeted by the following options
+	Check - reveals all players cards, and community cards, player with the highest score wins
+	Fold - take yourself out of the game, and restart match from Step 3
+	Quit - they will be given back the remaining amount of your bank (each player has a bank of chips)
+	Place Bet - the player can choose to bet the last ammount bet or raise it by a given ammount
+	Look at Cards - player picks up their cards so, you can see what they are to further make a desision
+7. (only happens if you bet) each player will bet a ammount, either the last bet ammount or raising it by a given ammount (Can be changed in ini)
+8. if all players except one are bust/folded, will give them the pot, if 1 or more player is still not bust returns to Step 6
+9. player with the best cards wins, if a player has a card that matches one of the community cards, that cards score is multiplied by 2
+**
+
+fixed Afterhours Nightclub not Purchasing when choosing a Business pass
+fixed getting up in CEO chair when purchasing a subbusiness in Biker Business
+fixed no notification on purchasing a subbusiness in Biker Business
+fixed no error, notification on enter subbusiness in Biker Business
+*** added Login & Logout Anim + sit on Chair Anim to Biker Business, Subbusiness - Meth Lab ***
+*** added Login & Logout Anim + sit on Chair Anim to Biker Business, Subbusiness - Cocaine Lockup ***
+*** added Login & Logout Anim + sit on Chair Anim to Biker Business,  Subbusiness - Forgery Office ***
+*** added Login & Logout Anim + sit on Chair Anim to Biker Business,  Subbusiness - Weed Farm ***
+*** added Login & Logout Anim + sit on Chair Anim to Biker Business,  Subbusiness - Fake ID Documents Office ***
+remove old markers in Cargo Warehouse
+*** added Login & Logout Anim + sit on Chair Anim to Executive Business, Cargo Warehouse (Large, Medium, Small) ***
+added syncronous animation for enter and exit Poker, Roulette and BlackJack Games
+added Syncronous animation for picking up Poker Cards
+added Syncronous animation for picking up Blackjack Cards
+fixed chips that have been bet in poker/blackjack being too high or to low, in relation to their height on the table
+made garage blip in AfterHours Business Disapear/reappear if too far away/close to it
+added dance minigame, in Nightclub in Afterhours Business
+added moving Spoetlights, in Nightclub in Afterhours Business - THANKS Sjaak327
+fixed random crashes from Galaxy Super yacht, thanks @elie.eh#2883, @ang13_mo#7004, Kaido#9730 - Standalone version has also been Patched avaliable in #current-uploads or 5mods
+
+
+---Business Redesign 0.7 Req---
+fixed some combatibility issues with Executive Yacht, and Working Galaxy Super Yacht mod's Yacht -- Still please dont make both yachts in the same place, or near each other
+fixed no poker/blackhjack table in Penthouse in DC&R
+fixed buying a champaine from afterhours drinks menu, crashing the script
+fixed sync animations not playing in DC&R
+fixed enter Penthouse from Casino Not working in DC&R
+readded interior blips to DC&R Casino
+
+---Business Redesign 0.7.5 Req---
+fixed sitting in penthouse chair not working
+replaced go to penthouse from casino with go to rooftop
+
+---Business Redesign 0.8 Req---
+fixed Maze Bank Tower Garage B when exiting garage on foot to return to office it teleport in the void... found by Dumbledore27, issue was unused/wrong/messy code in Smuggler's Run Business
+added no helicopter option in Yacht purchase in Executive Business
+fixed biker Business Stock not increasing
+fixed crash on entering Executive Warehouse
+fixed issues with not being able to lean in afterhours business
+
+---Business Redesign 0.9/1.0b Req---
+Merged Garages.cs and ExecutiveTower.cs Together
+fixed Waredrobe crashing script
+added sleep in bed, to Penthouse, Doomsday Facility, Executive Tower, Smugglers Hanger, and Gunrunning Sleeping quarters
+added ability to change Hostname in Arena War Business, Biker Business, Executive Business, Gunrunning Business, LCC Business, Doomsday Heist Business, Smuggler's Run Business
+
+---Business Redesign 1.0.1 Req---
+fixed crash when pressing E when inside Bunker
+
+---Business Redesign 1.0.2 Req---
+fixed crash when playing moving cargo mission in Smuggler's Run Business
+fixed chairs not spawning in arcade if just pressed insert
+fixed chairs in arcade having wrong rotation'
+fixed Exective Yacht not spawning propperly
+fixed first 2 vehicle slots in Executive tower Lombok,Garage B being in the wrong place
+
+---Business Redesign 1.0.3 Req---
+added support for Custom Colours for vehicle in Garages in all Business mods 
+
+---Business Redesign 1.0.4 Req---
+added new summer update yacht location
+fixed some compatibility issues with Working Galaxy Super Yacht Mod
+added ability to sit on Avenger Chairs to opperate turrets, upgrades are controlled by *** Open Command Center Interiors mod ***
+added ability to operate SAM and access menu in terrobyte through sitting on main chairs in interior
+added toggleable gunlocker into terrobyte interior, upgrades are controlled by *** Open Command Center Interiors mod ***
+added more support for all Moc Bay Combos, allowing you to choose to have access to Turrets, ability to store vehicles, having access to a gunlocker, and being able to change the Moc's Cab Vehicle via marker, upgrades are controlled by *** Open Command Center Interiors mod ***
+
+---Business Redesign 1.0.5 Req---
+added option to change MK2 livery tint in all gunlockers
+
+---Business Redesign 1.1 Req---
+added animated casino walls
+if SaveCar scipt detects an invalid Vehicle Name in a slot file, it will now tell you the directory of that slot, making it easier to fix'
+added elevator exit animation thanks to @CruelmasterMC
+(note the penthouse animated wall does not work yet)
+the animation can be changed via your ceo chair in casino/penthouse or arcade
+
+---Business Redesign 1.2 Req---
+added animated walls to the penthouse
+the tv in the penthouse now works, as well as the lounges in the viewing area
+ Slot Machines Are Now Functional  all 8 have been programmed
+
+---Business Redesign 1.2.1 Req---
+added a ped swimming in the Penthouse Terrace pools
+fixed Cash options in Executive Business not Working
+when changing design, player will now be put back into chair in Executive Business
+minor changes to slot macines
+
+
+---Business Redesign 1.2.6 Req---
+Fixed peds on Penthouse terrace not spawning if no peds are selected for terrace peds
+fixed Player being teleported back to main chair when starting missions in arena war business
+
+
+---Business Redesign 1.3 Req---
+Fixed LCC business purchase options in Business Helper having Arena War title instead of LCC
+changed open and access gunlocker and money vault buttons to right click and E in DC&R business
+redesigned biker 'sub businesses' will now be refered to as MC businesses
+removed Product.ini and put all variables for new MC businesses in Main.ini
+added reset options for new MC businesses
+
+---Business Redesign 1.4 Req---
+Added Black Banners
+Added better Support for Addon Vehicles
+
+
+---Business Redesign 1.4.1 Req---
+fixed some minor bugs with Biker Business, (need to own clubhouse notification on pressing E, safehouse colour randomly white)
+
+---Business Redesign 1.4.2 Req---
+fixed random UI notfication saying GET 0 or GET 1 or GET and a number
+
+
+
+---Business Redesign 1.4.3 Req---
+fixed second vehicle livery being reset on pressing X 
+added source random vehicle for price to executive Vehicle Warehouse
+- Decided not to merge LCC and Executive together
+
+
+---Business Redesign 1.5 Req---
+Remove basic missions from Biker Business
+addded new False Proffit mIssions in Biker Business
+addded new Biker Rivalry missions in Biker Business
+reworked steal supplies mission in all businessess
+fixed infinite loading when entering executive tower
+fixed assistant not spawning in executive tower
+added ability to change assistant in DC&R was fromerly Agitha ped in casino
+added ability to use pedhash or string to save assistant model, allowing for more peds that have hashes not regestered in SHVDN2
+redesigned Asset Recovery in Executive Business
+
+

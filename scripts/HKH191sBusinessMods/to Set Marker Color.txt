@@ -1,0 +1,1 @@
+To Set Marker Color for any Business Enter its folder in this directory, then open Main.ini or the ini file that holds Marker	Color , you can either enter a valid name like Blue, Green, Red, Yellow, Orange, Purple or enter ARGB_0_147_255, the three numbers represent R, G, B colour values, so 0, 147, 255, is light blue, and set MarkerColor to what you want

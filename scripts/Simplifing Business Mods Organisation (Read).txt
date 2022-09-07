@@ -1,0 +1,1 @@
+if you want to simplify your install of your business mods you can drop all the dlls and pdbs (Not HKH191sBusinessMods Folder) into a folder called BusinessMods, it need to be called BusinessMods so that HKHModHelperNew Can detect if a business mod is installed and add the business helper contact
